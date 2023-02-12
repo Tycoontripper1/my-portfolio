@@ -6,20 +6,20 @@ import { BsPatchCheckFill} from 'react-icons/bs'
 export const Experience = () =>{
     return(
         <section id="experience">
-            <h5>What Skills I Have</h5>
+            <h5 className="text-[#191919] dark:text-[#fff]">What Skills I Have</h5>
             <h2>Experience</h2>
 
             <div className="container experience_container">
-                <div className="experience_frontend">
+                <div className="experience_frontend bg-transparent border-2 border-[#4dbfff]">
                     <h3>
                         Frontend Developmrnt
                     </h3>
-                    <div className="experience_content">
+                    <div className="experience_content ">
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
                              <h4>HTML</h4>
-                             <small className="text-light">Experienced</small>
+                             <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
                              </div>
                             
                         </article>
@@ -28,14 +28,14 @@ export const Experience = () =>{
                              <div>
 
                              <h4>CSS</h4>
-                             <small className="text-light">Experienced</small>
+                             <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
                              </div>
                         </article>
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
                              <h4>Javascrit</h4>
-                             <small className="text-light">Experienced</small>
+                             <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
 
                              </div>
                         </article>
@@ -43,7 +43,7 @@ export const Experience = () =>{
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
                              <h4>Bootstrap</h4>
-                             <small className="text-light">Experienced</small>
+                             <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
 
                              </div>
                         </article>
@@ -52,14 +52,14 @@ export const Experience = () =>{
                              <div>
 
                              <h4>Tailwind</h4>
-                             <small className="text-light">Experienced</small>
+                             <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
                              </div>
                         </article>
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
                              <h4>React</h4>
-                             <small className="text-light">Experienced</small>
+                             <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
                                 
                              </div>
                         </article>
@@ -67,32 +67,40 @@ export const Experience = () =>{
                     </div>
                    
                 </div>
-                <div className="experience_Backend">
+                <div className="experience_Backend bg-transparent border-2 border-[#4dbfff]">
                     <h3>
-                        Backend Developmrnt
+                        Additonal Skills
                     </h3>
-                    <div className="experience_content"> 
+                    <div className="experience_content "> 
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
                                 
-                             <h4>PHP</h4>
-                             <small className="text-light">basics</small>
+                             <h4>Framer</h4>
+                             <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">basics</small>
                             </div>
                         </article>
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
-                             <h4>MySQL</h4>
-                             <small className="text-light">basics</small>
+                             <h4>Bootstrap</h4>
+                             <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
                                 
                             </div>
                         </article>
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
-                             <h4>Python</h4>
-                             <small className="text-light">basics</small>
+                             <h4>Node</h4>
+                             <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">basics</small>
+                                
+                                </div>
+                        </article>
+                        <article className="experience_details">
+                             < BsPatchCheckFill className="experience_details-icon" />
+                             <div>
+                             <h4>GIT Control</h4>
+                             <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
                                 
                                 </div>
                         </article>

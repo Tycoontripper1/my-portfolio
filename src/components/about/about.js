@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me2.jpg";
+import ME from "../../assets/me2.png";
 import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { CgFolder } from "react-icons/cg";
@@ -8,8 +8,8 @@ import { CgFolder } from "react-icons/cg";
 export const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5 className="text-[#191919] dark:text-[#fff]">Get To Know</h5>
+      <h2 >About Me</h2>
 
       <div className="container about_container">
         <div className="about_me">
@@ -20,10 +20,10 @@ export const About = () => {
 
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card">
+            <article className="about_card ">
               <FiAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ years working</small>
+              <small className="text-[#191919] dark:text-[#fff]">1+ years working</small>
             </article>
             <article className="about_card">
               <FiUsers className="about_icon" />
@@ -33,11 +33,11 @@ export const About = () => {
             <article className="about_card">
               <CgFolder className="about_icon" />
               <h5>Project</h5>
-              <small>20+ completed</small>
+              <small>20+  completed</small>
             </article>
           </div>
 
-          <p>
+          <p className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">
             Front-End Developer with a proven ability to collaborate effectively
             with senior developers while spending extra time to be mentored.
             Enjoy working closely with team members to ensure workloads are
