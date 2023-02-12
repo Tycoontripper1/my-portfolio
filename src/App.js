@@ -1,4 +1,4 @@
-import React from "react";
+import React,  {useState}  from "react";
 import { Header } from "./components/header/header";
 import { Navbar } from "./components/navbar/navbar";
 import { About } from "./components/about/about";
@@ -13,12 +13,13 @@ const App = ()=>{
 
   
 
-
+  const [darkTheme, setDarkTheme] = useState(false)
 
   return(
-    <div>
-    <Header  />
-    <Navbar />
+    <div className={darkTheme ? 'dark': ''}>
+      <div className="bg-gray-100 dark:bg-[#1f1f38] dark:text-[#fff]  text-[#191919]">
+      <Header darkTheme={darkTheme} setDarkTheme= {setDarkTheme}  />
+    <Navbar  />
     <About />
     <Experience />
     <Service />
@@ -26,6 +27,8 @@ const App = ()=>{
     <Testimonials />
     <Contact />
     <Footer />
+      </div>
+
   </div>
   )
  

@@ -23,6 +23,10 @@
   --contaner-width-md:86%;
   --container-width-sm:90%;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 html{
   scroll-behavior: smooth;
