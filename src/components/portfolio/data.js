@@ -40,15 +40,15 @@ export const Data =[
     {
         id: 5,
         image:foodapp,
-        title:"Restaurant App",
+        title:"Restaurant App with Redux",
         github:"https://github.com/Tycoontripper1/resturantApp",
         demo:"https://cityfoodapp17.netlify.app"
     },
     {
         id: 6,
         image:pics6,
-        title:"Pringles landing page",
-        github:"https://github.com/Tycoontripper1/pringles-landing-page",
-        demo:"https://dribbble.com/shots/19439260-Architectural-Theme-Pitchdeck"
+        title:"Simple web landing page with pure css",
+        github:"https://github.com/Tycoontripper1/simple-web",
+        demo:"https://simpleweb17.netlify.app/"
     }
 ]
