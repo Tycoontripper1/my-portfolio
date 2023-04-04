@@ -13,7 +13,7 @@
 }
 
 .testimonials{
-   background: var(--color-bg-variant);
+   /* background: var(--color-bg-variant); */
    text-align: center;
    padding: 2rem;
    border-radius: 2rem;
@@ -25,7 +25,7 @@
 }
 
 .client_review{
-    color: var(--color-light);
+    /* color: var(--color-light); */
     font-weight: 300;
     display: block;
     width: 80%;

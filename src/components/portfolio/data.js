@@ -12,16 +12,18 @@ export const Data =[
     {
         id: 1,
         image:pics1,
-        title:"EdgeLedger website",
-        github:"https://github.com/Tycoontripper1/Edgeledger.github.io",
-        demo:"https://dribbble.com/shots/19439260-Architectural-Theme-Pitchdeck"
+        title:"Artsy e-commerce with context api", 
+        github:"https://github.com/Tycoontripper1/artsy-shoppy",
+        demo:"https://artsy-shopping.netlify.app/"
     },
     {
         id: 2,
-        image:pics2,
-        title:"Hotel website",
-        github:"https://github.com/Tycoontripper1/hotelWeb",
-        demo:"https://dribbble.com/shots/19439260-Architectural-Theme-Pitchdeck"
+        
+        image:foodapp,
+        title:"Restaurant App with Redux",
+        github:"https://github.com/Tycoontripper1/resturantApp",
+        demo:"https://cityfoodapp17.netlify.app"
+        
     },
     {
         id: 3,
@@ -39,10 +41,10 @@ export const Data =[
     },
     {
         id: 5,
-        image:foodapp,
-        title:"Restaurant App with Redux",
-        github:"https://github.com/Tycoontripper1/resturantApp",
-        demo:"https://cityfoodapp17.netlify.app"
+        image:pics2,
+        title:"Housing cost",
+        github:"https://github.com/Tycoontripper1/housing",
+        demo:"https://housing-cost.netlify.app/"
     },
     {
         id: 6,

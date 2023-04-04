@@ -65,6 +65,7 @@
 
  @media screen and (max-width:600px) {
  .experience_container{
+    width: var(--container-width-sm);
     gap: 1rem;
  }
 

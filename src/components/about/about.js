@@ -20,20 +20,20 @@ export const About = () => {
 
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card ">
+            <article className="about_card  bg-transparent dark:bg-[#2c2c6c] dark:border-transparent ">
               <FiAward className="about_icon" />
               <h5>Experience</h5>
-              <small className="text-[#191919] dark:text-[#fff]">1+ years working</small>
+              <small className="text-[#191919] dark:text-[#fff] text-center">2+ years working</small>
             </article>
-            <article className="about_card">
+            <article className="about_card bg-transparent dark:bg-[#2c2c6c] dark:border-transparent ">
               <FiUsers className="about_icon" />
               <h5>Clients</h5>
-              <small>worldwide client</small>
+              <small className="text-[#191919] dark:text-[#fff] text-center">worldwide client</small>
             </article>
-            <article className="about_card">
+            <article className="about_card bg-transparent dark:bg-[#2c2c6c] dark:border-transparent ">
               <CgFolder className="about_icon" />
               <h5>Project</h5>
-              <small>20+  completed</small>
+              <small className="text-[#191919] dark:text-[#fff] text-center">10+  completed</small>
             </article>
           </div>
 

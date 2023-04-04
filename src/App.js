@@ -17,7 +17,7 @@ const App = ()=>{
 
   return(
     <div className={darkTheme ? 'dark': ''}>
-      <div className="bg-gray-100 dark:bg-[#1f1f38] dark:text-[#fff]  text-[#191919]">
+      <div className="bg-gray-100 dark:bg-[#1f1f38] dark:text-[#fff]  text-[#191919] ">
       <Header darkTheme={darkTheme} setDarkTheme= {setDarkTheme}  />
     <Navbar  />
     <About />
