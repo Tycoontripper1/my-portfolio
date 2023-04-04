@@ -1,6 +1,7 @@
 import React from "react";
 import './experience.css'
 import { BsPatchCheckFill} from 'react-icons/bs'
+import { Slide } from "react-awesome-reveal";
 
 
 export const Experience = () =>{
@@ -67,6 +68,7 @@ export const Experience = () =>{
                     </div>
                    
                 </div>
+                
                 <div className="experience_Backend bg-transparent border-2 border-[#4dbfff]">
                     <h3>
                         Additonal Skills
