@@ -1,8 +1,8 @@
 
 import pics1 from '../../assets/portfolio1.png'
 import pics2 from '../../assets/portfolio2.png'
-import pics3 from '../../assets/portfolio3.png'
-import pics4 from '../../assets/portfolio4.png'
+import pics3 from '../../assets/bulb.png'
+import pics4 from '../../assets/detty.png'
 
 import pics6 from '../../assets/portfolio6.png'
 import foodapp from '../../assets/portfolio7.png'
@@ -28,16 +28,16 @@ export const Data =[
     {
         id: 3,
         image:pics3,
-        title:"Portfolio",
-        github:"https://github.com/Tycoontripper1/Edgeledger.github.io",
-        demo:"https://oladejiportfolios.netlify.app"
+        title:"The Bulb Web",
+        github:"",
+        demo:"https://thebulb.africa"
     },
     {
         id: 4,
         image:pics4,
-        title:"e-commerce with redux",
-        github:"https://github.com/Tycoontripper1/ecommerceRedux",
-        demo:"https://dribbble.com/shots/19439260-Architectural-Theme-Pitchdeck"
+        title:"DettyDecember Event App",
+        github:"#",
+        demo:"https://dettydecember.xyz/"
     },
     {
         id: 5,

@@ -14,7 +14,8 @@ export const Portfolio = () => {
           return (
             <article className="portfolio_item bg-transparent dark:bg-[#2c2c6c]" key={id}>
               <div className="portfolio_image-item">
-                <img src={image} alt={title} loading='lazy' />
+                <img src={image} alt={title} loading='lazy' layout="fill"
+          objectFit="cover" />
               </div>
               <h3>{title}</h3>
               <div className="portfolio_cta">
