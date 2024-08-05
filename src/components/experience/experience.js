@@ -35,7 +35,7 @@ export const Experience = () =>{
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
-                             <h4>Javascrit</h4>
+                             <h4>Javascript</h4>
                              <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
 
                              </div>
@@ -43,7 +43,7 @@ export const Experience = () =>{
                         <article className="experience_details">
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
-                             <h4>Bootstrap</h4>
+                             <h4>Next js</h4>
                              <small className=" text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
 
                              </div>
