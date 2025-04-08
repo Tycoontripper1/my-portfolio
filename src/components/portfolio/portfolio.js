@@ -17,7 +17,7 @@ export const Portfolio = () => {
                 <img src={image} alt={title} loading='lazy' layout="fill"
           objectFit="cover" />
               </div>
-              <h3>{title}</h3>
+              <h3 style={{fontSize:"12px"}}>{title}</h3>
               <div className="portfolio_cta">
                 <a href={github} className="btn" terget="_blank">
                   Github

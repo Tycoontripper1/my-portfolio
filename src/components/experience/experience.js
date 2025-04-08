@@ -78,6 +78,22 @@ export const Experience = () =>{
                              < BsPatchCheckFill className="experience_details-icon" />
                              <div>
                                 
+                             <h4>React Native</h4>
+                             <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                             < BsPatchCheckFill className="experience_details-icon" />
+                             <div>
+                                
+                             <h4>Expo</h4>
+                             <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">Experienced</small>
+                            </div>
+                        </article>
+                        <article className="experience_details">
+                             < BsPatchCheckFill className="experience_details-icon" />
+                             <div>
+                                
                              <h4>Framer</h4>
                              <small className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">basics</small>
                             </div>
