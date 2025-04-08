@@ -23,7 +23,7 @@ export const About = () => {
             <article className="about_card  bg-transparent dark:bg-[#2c2c6c] dark:border-transparent ">
               <FiAward className="about_icon" />
               <h5>Experience</h5>
-              <small className="text-[#191919] dark:text-[#fff] text-center">2+ years working</small>
+              <small className="text-[#191919] dark:text-[#fff] text-center">3+ years working</small>
             </article>
             <article className="about_card bg-transparent dark:bg-[#2c2c6c] dark:border-transparent ">
               <FiUsers className="about_icon" />
@@ -38,14 +38,12 @@ export const About = () => {
           </div>
 
           <p className="text-[#191919] dark:text-[rgba(255,255,255,0.6)]">
-            Front-End Developer with a proven ability to collaborate effectively
-            with senior developers while spending extra time to be mentored.
-            Enjoy working closely with team members to ensure workloads are
-            effectively redirected to bottlenecks and personally picking up the
-            slack when necessary. With a passion for both personal growth and
-            web development, I attended coding boot camps to learn new languages
-            while sharpening existing skills. Ready to apply my passion for
-            coding to a talented engineering team to develop quality solutions.
+          Highly motivated Frontend developer with experience in building and optimizing user-centric web applications. Skilled in
+ React, Next.js, JavaScript, and modern UI frameworks, I have a keen eye for detail and a strong focus on performance,
+ accessibility, and responsive design. Experienced in translating designs into pixel-perfect interfaces, debugging complex
+ issues, and enhancing user experiences. Passionate about staying up to date with the latest frontend technologies and
+ continuously improving development workflows. Excellent problem-solving and communication skills, with a strong ability to
+ collaborate in dynamic team environments.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
