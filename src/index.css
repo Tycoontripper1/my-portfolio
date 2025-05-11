@@ -157,6 +157,7 @@ img{
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  animation: fadeIn 0.3s ease forwards;
 }
 
 .modal_content {
@@ -167,6 +168,8 @@ img{
   border-radius: 10px;
   position: relative;
   text-align: center;
+  animation: scaleIn 0.3s ease forwards;
+  transform-origin: center;
 }
 
 .modal_content img {
@@ -182,7 +185,9 @@ img{
   font-size: 24px;
   background: none;
   border: none;
+  color: #333;
   cursor: pointer;
+  z-index: 10;
 }
 .modal_content h2 {
   font-size: 1.5rem;
@@ -202,7 +207,25 @@ img{
   text-align: left;
   padding-right: 10px;
 }
+@keyframes fadeIn {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
 
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 
 /* -------media query (medium devices)   */
@@ -220,6 +243,11 @@ img{
 @media screen and (max-width:600px) {
   .container{
     width: var(--contaner-width-sm);
+  }
+  .modal_close {
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
   }
 
   section{
