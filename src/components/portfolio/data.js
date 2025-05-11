@@ -10,10 +10,10 @@ export const Data = [
   {
     id: 1,
     image: pics1,
-    Header: "Artsy",
-    title: "Artsy e-commerce with context api",
-    github: "https://github.com/Tycoontripper1/artsy-shoppy",
-    demo: "https://artsy-shopping.netlify.app/",
+    Header: "Peoplesstore Ecommerce",
+    title: "Peoplesstore Ecommerce is a dynamic online shopping platform that offers a wide range of products and services. With a user-friendly interface, customers can easily browse through various categories, including electronics, fashion, home goods, and more. The platform features secure payment options, ensuring safe transactions for users. Additionally, it provides personalized recommendations based on user preferences and browsing history. The responsive design allows seamless access across devices, making shopping convenient anytime, anywhere. With a focus on customer satisfaction, Peoplesstore Ecommerce aims to deliver an enjoyable and efficient online shopping experience.",
+    github: "#",
+    demo: "https://www.peoplesstore.ng/",
   },
   {
     id: 2,
